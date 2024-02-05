@@ -50,7 +50,7 @@ WHERE unit_price * quantity = (
 | ------- | ----- | -------- |
 | Bagel | 3 | 20 |
 
-We can combine `MAX()` with [[GROUP BY|GROUP BY]] to retrieve the maximum over a particular grouping.
+We can combine `MAX()` with [GROUP BY](group-by.html) to retrieve the maximum over a particular grouping.
 ```
 SELECT product, MAX(unit_price * quantity)
 FROM purchase
