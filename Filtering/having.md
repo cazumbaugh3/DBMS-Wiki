@@ -1,6 +1,7 @@
 ---
 layout: default
 title: HAVING
+parent: Filtering
 ---
 
 # The `HAVING` clause
