@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Count
+title: COUNT
 parent: Aggregation
 ---
 

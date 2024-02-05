@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Average
+title: AVG
 parent: Aggregation
 ---
 # The `AVG()` function

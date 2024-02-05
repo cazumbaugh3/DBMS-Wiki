@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Max
+title: MAX
 parent: Aggregation
 ---
 

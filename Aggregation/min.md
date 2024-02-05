@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Min
+title: MIN
 parent: Aggregation
 ---
 
