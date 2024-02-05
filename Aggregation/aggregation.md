@@ -8,7 +8,7 @@ has_children: true
 Aggregation functions perform a calculation on several values and return a single result. With the exception of the [Count] function, aggregate functions ignore `NULL` values. Aggregate functions are often combined with [[GROUP BY|GROUP BY]] and [[HAVING|HAVING]] clauses.
 
 SQL provides various aggregate functions:
-* [COUNT()](Count.md)
+* [COUNT()](count.md)
 * [SUM()](Sum.md)
 * [AVG()](Avg.md)
 * [MIN()](Min.md)
