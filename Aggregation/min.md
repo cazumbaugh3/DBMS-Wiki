@@ -17,6 +17,7 @@ FROM table;
 Consider the following table.
 
 **purchase:**
+
 | product | unit_price | quantity |
 | ------- | ----- | -------- |
 | Bagel | 3 | 20 |
@@ -30,6 +31,7 @@ Let's say we want to find the smallest unit price.
 SELECT MIN(unit_price)
 FROM purchase;
 ```
+
 | min |
 | --- |
 | 0.5 |
@@ -39,6 +41,7 @@ We can also find the smallest sale as follows.
 SELECT MIN(unit_price * quantity)
 FROM purchase;
 ```
+
 | min |
 | --- |
 | 20 |
@@ -49,6 +52,7 @@ SELECT product, MIN(unit_price)
 FROM purchase
 GROUP BY product;
 ```
+
 | product | min |
 | ------- | --- |
 | Bagel | 1.5 |
@@ -63,6 +67,7 @@ WHERE unit_price * quantity = (
     FROM purchase;
 );
 ```
+
 | product | price | quantity |
 | ------- | ----- | -------- |
 | Banana | 2 | 10 |

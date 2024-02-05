@@ -17,6 +17,7 @@ FROM table;
 Consider the following table.
 
 **purchase:**
+
 | product | unit_price | quantity |
 | ------- | ----- | -------- |
 | Bagel | 3 | 20 |
@@ -30,6 +31,7 @@ Let's say we want to find the value of the maximum sale.
 SELECT MAX(unit_price * quantity)
 FROM purchase;
 ```
+
 | max |
 | --- |
 | 60 |
@@ -43,6 +45,7 @@ WHERE unit_price * quantity = (
     FROM purchase
 );
 ```
+
 | product | unit_price | quantity |
 | ------- | ----- | -------- |
 | Bagel | 3 | 20 |
@@ -53,6 +56,7 @@ SELECT product, MAX(unit_price * quantity)
 FROM purchase
 GROUP BY product;
 ```
+
 | product | max |
 | ------- | --- |
 | Bagel | 60 |
