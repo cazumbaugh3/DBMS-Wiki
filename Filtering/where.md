@@ -65,6 +65,16 @@ WHERE price = (
 | ---- |
 | Computer |
 
+This query can also be written as follows.
+```
+SELECT name
+FROM products
+WHERE price >= ALL (
+	SELECT price
+	FROM products
+);
+```
+
 While an unrealistic example, the following query will result in an error as they types are incompatible.
 ```
 SELECT name
