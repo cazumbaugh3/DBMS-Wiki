@@ -19,6 +19,7 @@ WHERE condition(s);
 Consider the following table
 
 **products:**
+
 | id | name | price |
 | -- | ---- | ----- |
 | 1 | Widget | 10 |
@@ -28,10 +29,12 @@ Consider the following table
 
 Let's say we wish to retrieve all products with a price less than 500.
 ```
+
 SELECT name
 FROM products
 WHERE price < 500;
 ```
+
 | name |
 | ---- |
 | Widget |
@@ -43,6 +46,7 @@ SELECT name
 FROM products
 WHERE price < 500 AND price > 50;
 ```
+
 | name |
 | ---- |
 | Phone |
@@ -56,6 +60,7 @@ WHERE price = (
 	FROM products
 );
 ```
+
 | name |
 | ---- |
 | Computer |
