@@ -31,6 +31,7 @@ Consider the following tables.
 | Double IPA |
 
 **wine:**
+
 | name |
 | ---- |
 | Cabernet Sauvignon |
